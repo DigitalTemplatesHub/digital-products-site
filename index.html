@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover premium digital products including templates, planners, and design assets to boost your productivity and creativity.">
+  <title>Digital Products Hub – Elevate Your Workflow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="logo">Digital Products Hub</a>
+      <ul class="nav-links">
+        <li><a href="products.html">Products</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Elevate Your Workflow with Premium Digital Products</h1>
+      <p>Explore our curated collection of digital templates, planners, and design assets designed to boost productivity and inspire creativity. Whether you're a freelancer, entrepreneur, or student, we have something for you.</p>
+      <a href="products.html" class="cta">Browse Products</a>
+    </section>
+
+    <section>
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>High‑Quality Templates</h3>
+          <p>Our products are crafted by experts with attention to detail and usability, giving you professional results every time.</p>
+        </div>
+        <div class="feature">
+          <h3>Instant Downloads</h3>
+          <p>Get access to your purchase immediately after checkout. Start using your new templates without delay.</p>
+        </div>
+        <div class="feature">
+          <h3>Easy Customization</h3>
+          <p>All assets are fully editable, allowing you to tailor them to your unique style and brand.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Stay in the Loop</h2>
+      <p style="text-align:center; max-width:600px; margin:0 auto 1.5rem;">Subscribe to our newsletter to receive product updates, exclusive discounts, and productivity tips.</p>
+      <!-- Placeholder newsletter form. Integrate with a marketing platform like Mailchimp or ConvertKit. -->
+      <form style="display:flex; flex-direction:column; align-items:center; gap:1rem; max-width:400px; margin:0 auto;" action="#" method="POST">
+        <input type="email" name="email" placeholder="Enter your email address" required style="padding:0.75rem; width:100%; border:1px solid #ccc; border-radius:var(--border-radius);">
+        <button type="submit" class="cta" style="border:none; cursor:pointer;">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Digital Products Hub. All rights reserved.</p>
+    <p><a href="about.html">About</a> | <a href="products.html">Products</a> | <a href="blog.html">Blog</a></p>
+  </footer>
+  <script>
+    // Update the copyright year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
